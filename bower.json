@@ -1,0 +1,14 @@
+{
+    "name": "jvectormaps-bowerflavored",
+    "version": "2.0.4",
+    "main": "jquery-jvectormap.js",
+    "dependencies": {
+        "jquery": ">= 2.0"
+    },
+    "publishConfig": {
+        "registry": "https://registry.npmjs.org"
+    },
+    "ignore": [
+        ".gitignore"
+    ]
+}
