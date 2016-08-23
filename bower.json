@@ -1,5 +1,5 @@
 {
-    "name": "jvectormaps-bowerflavored",
+    "name": "jvectormaps-bower",
     "version": "2.0.4",
     "main": "jquery-jvectormap.js",
     "dependencies": {
@@ -9,6 +9,7 @@
         "registry": "https://registry.npmjs.org"
     },
     "ignore": [
-        ".gitignore"
+        ".gitignore",
+        ".DS_Store"
     ]
 }
