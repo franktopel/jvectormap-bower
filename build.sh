@@ -47,8 +47,10 @@ done
 if [ -z "$1" ]
   then
     minified=jquery.jvectormap.min.js
+    beautified=jquery.jvectormap.js
   else
-    minified=$1
+    minified=$1.min.js
+    beautified=$1.js
 fi
 
 if [ -a $minified ]
@@ -56,6 +58,13 @@ if [ -a $minified ]
     rm $minified
 fi
 
+if [ -a $beautified ]
+  then
+    rm $beautified
+fi
+
 cat ${files[*]} >> $minified
+cat ${files[*]} >> $beautified
 
 uglifyjs $minified -o $minified -c
+uglifyjs $beautified -o $beautified -b
