@@ -1,6 +1,6 @@
 {
     "name": "jvectormaps-bower",
-    "version": "2.0.4-3",
+    "version": "2.0.4-4",
     "main": "jquery-jvectormap.js",
     "dependencies": {
         "jquery": ">= 2.0"
