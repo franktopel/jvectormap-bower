@@ -46,8 +46,8 @@ done
 
 if [ -z "$1" ]
   then
-    minified=jquery.jvectormap.min.js
-    beautified=jquery.jvectormap.js
+    minified=$baseDir/dist/jquery.jvectormap.min.js
+    beautified=$baseDir/dist/jquery.jvectormap.js
   else
     minified=$1.min.js
     beautified=$1.js
